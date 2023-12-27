@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>College Diaries</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+.hero {
+
+
+padding: 40px; text-align: center;
+}
+
+
+.carousel-item img { width: 100%; height: 700px; object-fit: cover;
+}
+</style> 
+</head>
+<body>
+
+
+<header>
+<div class="logo">
+
+
+<h1 ><b>College Diaries</b></h1>
+</div>
+<nav>
+<ul>
+<li><a href="blogsite.html">Blog</a></li>
+<li><a href="notice.html">Notice</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+
+
+
+<!-- Hero Section -->
+<section class="hero">
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="https://qph.cf2.quoracdn.net/main-qimg- 727e21067dc30c71a5aac5d7ee1b9a9c-lq" alt="Image 1">
+</div>
+<div class="carousel-item">
+<img src="data:image/jpeg;base64,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 AohQoVRIKAoUKADFChQpDBQoUKAP/Z" alt="Image 2"> 
+</div>
+<div class="carousel-item">
+<img src="https://i.pinimg.com/736x/94/f3/3d/94f33d9fd673cbeb001128fba038a335.jpg" alt="Image 3">
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data- bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data- bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+<h2 >Welcome to College Diaries</h2>
+<p >Your gateway to college life!</p>
+</br>
+<p>College Diaries is a dynamic and interactive website that serves as a virtual diary, providing college students with a valuable platform to share their thoughts, ideas, and daily life experiences during their educational journey. College life is a transformative period filled with a plethora of unique moments, challenges, and opportunities, and the College Diaries website emerges as an essential medium for students to express themselves, connect with peers, and share their stories.
+
+
+At the heart of College Diaries lies the freedom of expression, where students can write blogs or posts on a wide range of topics. From academic achievements to extracurricular activities, personal growth, and campus events, the platform encourages students to articulate their individuality and embrace their uniqueness. Through this creative outlet, students can reflect on their academic pursuits, share valuable insights, and offer guidance to their fellow peers.
+
+
+Beyond the act of personal expression, College Diaries functions as a powerful connector, forging meaningful relationships among students from various educational institutions and diverse backgrounds. It transcends geographical boundaries, creating a global community where learners from different colleges and universities come together to engage in meaningful conversations. By connecting with peers they may not have met otherwise, students broaden their horizons and gain exposure to a wide array of perspectives and experiences. 
+
+One of the distinct advantages of College Diaries is its capacity to foster a sense of belonging within the college community. As students interact with each other's posts, they form bonds based on shared interests, experiences, and passions. This sense of belonging contributes to a positive and supportive environment where students feel encouraged to open up and engage in constructive discussions.
+Furthermore, the platform serves as an excellent opportunity for collaboration and networking, enabling students to collaborate on projects, exchange academic resources, and explore potential partnerships.
+
+
+Apart from sharing personal experiences, College Diaries also functions as a reliable source of vital college-related notices. Whether it's upcoming events, academic deadlines, or campus announcements, students can stay informed and updated through the notices section of the website. This integration of informative notices ensures that the platform caters not only to personal expression but also to the practical needs of students, enhancing their overall college experience.
+
+
+In conclusion, College Diaries stands as a virtual sanctuary for college students, providing them with a space to share their thoughts, ideas, and daily experiences while connecting with a diverse community of peers. It empowers students to embrace their individuality, foster a sense of belonging, and engage in meaningful interactions. With its integration of informative notices, College Diaries also caters to practical college needs, making it an invaluable companion throughout the college journey. As students continue to navigate their academic paths, College Diaries remains a guiding light, offering a platform for expression, connection, and growth.</p>
+</section>
+
+
+
+
+
+</body>
+</html> 
