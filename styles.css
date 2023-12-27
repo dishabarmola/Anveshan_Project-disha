@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    
+    body {
+    background-image: url("https://i.pinimg.com/736x/1e/7b/4a/1e7b4a0078d487cc0a040aead890199d.jpg");
+    font-size: 1.6rem;
+    font-family: 'Dancing Script', cursive; line-height: 1.6;
+    }
+    
+    
+    header {
+    height: 110px;
+    background-image: url("https://img.freepik.com/premium-vector/aesthetic-minimal-pink-peach- checkers-gingham-plaid-checkerboard-wallpaper-illustration-perfect-wallpaper-backdrop-postcard- background_565280-643.jpg?w=2000");
+    color: #b60d0d; padding: 1rem; display: flex;
+    justify-content: space-between; align-items: center;
+    }
+    
+    
+    .logo {
+    display: flex;
+    align-items: center;
+    } 
+    nav ul {
+    list-style: none; display: flex;
+    }
+    
+    
+    nav li {
+    margin-right: 1rem;
+    }
+    
+    
+    nav a {
+    text-decoration: none; color: #a30606;
+    }
+    
+    
+    .hero {
+    background-color: #fcefef; padding: 3rem;
+    text-align: center;
+    }
+    
+    
+    .features { padding: 2rem;
+    }
+    
+    
+    .blog, .vlog, .notice, .confession, .college-newspaper { padding: 2rem;
+    background-color: #fff; margin-bottom: 2rem;
+    }
+    
+    
+    .footer {
+    background-color: #333; 
+    color: #fff;
+    text-align: center; padding: 1rem;
+    }
+    
+    
+    .blog-page {
+    margin-bottom: 30px;
+    }
+    
+    
+    /* Sidebar styles */
+    .sidebar { background-image:
+    url("https://i.pinimg.com/736x/1e/7b/4a/1e7b4a0078d487cc0a040aead890199d.jpg");
+    margin-top: 20px;
+    border: 2px solid #969292; border-radius: 5px; padding: 10px;
+    margin-bottom: 10px;
+    border-color: rgb(218, 95, 121);
+    }
+    
+    
+    .sidebar h2 {
+    font-size: 2rem; margin-bottom: 20px; color: #9b0202;
+    }
+    
+    
+    .sidebar ul {
+    list-style: none; margin: 2px; padding: 3rem;
+    } 
+    .sidebar li {
+    margin-bottom: 10px; color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    }
+    
+    
+    .sidebar li:hover { color: #9b0202;
+    }
+    
+    
+    .sidebar li a {
+    text-decoration: none; margin-bottom: 10px; color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    }
+    
+    
+    .sidebar li a:hover { color: #9b0202;
+    }
+    
+    
+    .custom-textarea { resize: none; border-radius: 6px;
+    border: 1px solid #ccc; padding: 8px;
+    font-size: 16px; width: 100%; outline: none;
+    transition: border-color 0.3s ease; 
+    }
+    
+    
+    .custom-textarea:focus { border-color: #9b0202;
+    }
+    
+    
+    .blog-entry {
+    border: 2px solid #1f1a1a; border-radius: 5px; padding: 10px;
+    margin-bottom: 10px;
+    }
